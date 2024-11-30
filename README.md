@@ -32,3 +32,19 @@ then use GNU stow to create symlinks
 ```
 stow .
 ```
+
+## Zsh
+
+Install using Oh My Zsh (https://github.com/ohmyzsh/ohmyzsh)
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+### powerlevel10k
+
+Powerlevel10k is a theme for Zsh (https://github.com/romkatv/powerlevel10k). Install via Oh My Zsh
+
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
